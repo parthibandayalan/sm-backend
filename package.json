@@ -1,0 +1,34 @@
+{
+  "name": "social-media-app-b",
+  "version": "1.0.0",
+  "description": "backend for social media app",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "mocha --recursive --exit --timeout 60000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "chai": "^4.3.4",
+    "cookie-parser": "^1.4.6",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "get-stream": "^6.0.1",
+    "gridfs-stream": "^1.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "mocha": "^9.2.0",
+    "mockgoose": "^8.0.4",
+    "mongodb": "^4.1.2",
+    "mongoose": "^6.0.9",
+    "multer": "^2.0.0-rc.1",
+    "multer-gridfs-storage": "^5.0.2",
+    "nodemon": "^2.0.13",
+    "sharp": "^0.30.1",
+    "supertest": "^6.1.6"
+  }
+}

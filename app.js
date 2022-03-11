@@ -40,7 +40,7 @@ app.use("/auth", authRouter);
 const imageRouter = require("./routes/image");
 app.use("/image", imageRouter);
 
-app.get("/", (req, res) => {
+app.get("/api/test", (req, res) => {
   res.send("we are on home");
 });
 
